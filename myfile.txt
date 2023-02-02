@@ -1,3 +1,25 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+export ORACLE_PATH="/home/DCG9678/scripts/"
+
+export VIMRUNTIME="/home/DCG9678/.local/bin/runtime/"
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/home/DCG9678/.local/bin"
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:.
+
+export PATH
+
+alias vi=vim
+
+
 --- login.sql ----
 
 define _editor=vi
