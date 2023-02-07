@@ -40,3 +40,15 @@ select to_char(sysdate, 'yyyymmdd-hh24miss') spool_name from dual;
 set termout on
 spool &S
 
+
+---  OUTPUT TO HTML -----------
+SET PAGESIZE 50000
+SET MARKUP HTML ON TABLE "class=detail cellspacing=0" ENTMAP OFF
+
+SPOOL output.out
+
+select count(*) from user_objects where status<>'VALID';
+
+SPOOL OFF
+quit;
+/
