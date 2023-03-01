@@ -25,6 +25,8 @@ alias vi=vim
 
 define _editor=vi
 
+-- set markup html on
+
 set heading on
 set timing on
 set history on
