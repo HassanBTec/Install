@@ -2,6 +2,8 @@
 Power Query M
 --------------
 
+let splitName = Splitter.SplitTextByDelimiter(" ", QuoteStyle.None)([Name]) in Text.Combine({splitName{0}?, Text.Start(splitName{1}?, 1)})
+
 DateTime.FromText("30 Dez 2010 02:04:50.369730", [Format="dd MMM yyyy HH:mm:ss.ffffff", Culture="de-DE"])
 
 DateTime.FromText([EXECUTION_TIME], [Format="dd-MM-yy HH:mm:ss.fffff", Culture="fr-FR"])
