@@ -58,3 +58,62 @@ let
     updatedColumns = Table.AddColumn(#"Renamed Columns", "Fibonacci", each F([Units]))
 in
     updatedColumns
+
+
+---------------------------------------------
+
+let
+    GraphSource = Excel.CurrentWorkbook(){[Name="Paths"]}[Content],
+    Graph = Table.Buffer(Table.TransformColumnTypes(GraphSource,{{"From", type text}, {"To", type text}, {"Distance", Int64.Type}})),
+
+    RouteSource = Excel.CurrentWorkbook(){[Name="Route"]}[Content],
+    Route = Table.Buffer(Table.TransformColumnTypes(RouteSource,{{"From", type text}, {"To", type text}})),
+
+    From = Route[From]{0},
+    To = Route[To]{0},
+    Nodes = List.Buffer(List.Distinct(Graph[From] & Graph[To])),
+    InitialCosts = List.RemoveMatchingItems(List.Generate(()=>[i=null,c=0],each [c] <= List.Count(Nodes), each [i = (if Nodes{[c]} = From then 0 else Number.PositiveInfinity), c = [c] + 1], each [i]),{null}),
+    InitialNodeCost = Table.FromColumns({Nodes,InitialCosts,List.Repeat({""},List.Count(Nodes))},{"Nodes","Costs","Path"}),
+
+    //recursive function to update NodeCost table for each active node
+    Traverse = (NodeCosts, UnvisitedNodes) => 
+    let
+        NodeCost = Table.Buffer(NodeCosts),
+
+        //select node with minimum cost out of all previously unselected nodes
+        Merge = Table.NestedJoin(NodeCost,{"Nodes"},Table.FromColumns({UnvisitedNodes},{"Nodes"}),{"Nodes"},"NewColumn",JoinKind.RightOuter),
+        Sort = Table.Sort(Merge,{{"Costs", Order.Ascending}}),
+        MinNode = Sort{0}[Nodes],
+        MinCost = Sort{0}[Costs],
+        UnvisitedNodesUpdated = List.RemoveMatchingItems(UnvisitedNodes, {MinNode}),
+
+        //update costs and paths for nodes connected to active node 
+        FilterMinNode = Table.SelectRows(Graph, each ([From] = MinNode)),
+        MergeUnvisited = Table.NestedJoin(FilterMinNode,{"To"},Table.FromColumns({UnvisitedNodes},{"Nodes"}),{"Nodes"},"NewColumn",JoinKind.Inner),
+        MergeCost = Table.NestedJoin(MergeUnvisited,{"To"},NodeCost,{"Nodes"},"NewColumn.1",JoinKind.LeftOuter),
+        ExpandCost = Table.ExpandTableColumn(MergeCost, "NewColumn.1", {"Costs"}, {"Costs"}),
+        MergePathFrom = Table.NestedJoin(ExpandCost,{"From"},NodeCost,{"Nodes"},"NewColumn.1",JoinKind.LeftOuter), //new path if cost is updated
+        ExpandPathFrom = Table.ExpandTableColumn(MergePathFrom, "NewColumn.1", {"Path"}, {"PathFrom"}),
+        MergePathTo = Table.NestedJoin(ExpandPathFrom,{"To"},NodeCost,{"Nodes"},"NewColumn.1",JoinKind.LeftOuter), //old path if cost is not updated
+        ExpandPathTo = Table.ExpandTableColumn(MergePathTo, "NewColumn.1", {"Path"}, {"PathTo"}),
+        NewCost = Table.AddColumn(ExpandPathTo, "NewCost", each if [Distance]+MinCost < [Costs] then [Distance]+MinCost else [Costs]),
+        AddPath = Table.AddColumn(NewCost, "NewPath", each if [Distance]+MinCost < [Costs] then [PathFrom]&[From]&[To] else [PathTo]),
+        RemoveColumns1 = Table.SelectColumns(AddPath,{"To", "NewCost", "NewPath"}),
+        RenameColumns = Table.RenameColumns(RemoveColumns1,{{"To", "Nodes"}, {"NewCost", "Costs"}, {"NewPath", "Path"}}),
+        
+        //recreate NodeCost table with updated data for active node's vertices, append back unaffected nodes. 
+        MergeNodeCost = Table.NestedJoin(NodeCost,{"Nodes"},RenameColumns,{"Nodes"},"NewColumn",JoinKind.LeftAnti),
+        RemoveColumns2 = Table.RemoveColumns(MergeNodeCost,{"NewColumn"}),
+        Append = Table.Combine({RenameColumns, RemoveColumns2}),
+        TransformPath = Table.TransformColumns(Append,{"Path", each Text.Combine(List.Distinct(Text.ToList(_)))}), //remove this step if node labels have more than 1 digit
+        SortedRows = Table.Sort(TransformPath,{{"Nodes", Order.Ascending}}),
+    
+        //FilterTo = Table.SelectRows(SortedRows, each ([Nodes] = To)) //filter if only one result is to be shown
+        FilterTo = SortedRows
+    in
+        if (not List.Contains(UnvisitedNodesUpdated, To) or UnvisitedNodesUpdated = {}) then FilterTo else @Traverse(SortedRows, UnvisitedNodesUpdated),
+
+    Result = Traverse(InitialNodeCost, Nodes) 
+
+in
+    Result
