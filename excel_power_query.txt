@@ -43,3 +43,18 @@ DateTime.FromText("20101231T013000", [Format="yyyyMMdd'T'HHmmss", Culture="en-US
 Output
 
 #datetime(2010, 12, 31, 1, 30, 0)
+
+--------------------------------------------
+
+let
+    Source = Excel.CurrentWorkbook(){[Name="Table1"]}[Content],
+    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Product ID", type text}, {"Category", type text}, {"Name", type text}, {"Size", type text}, {"Price", type number}, {"Units per pack", Int64.Type}}),
+    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Units per pack", "Units"}}),
+    F= (x as number) as number =>
+        let
+            f=@F(x-1)+@F(x-2)
+        in
+            if(x=0 or x=1) then x else f,
+    updatedColumns = Table.AddColumn(#"Renamed Columns", "Fibonacci", each F([Units]))
+in
+    updatedColumns
