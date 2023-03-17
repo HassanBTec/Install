@@ -1,4 +1,60 @@
-		SET SERVEROUTPUT ON
+SET SERVEROUTPUT ON
+
+SPOOL output.out
+
+select count(*) from user_objects where status<>'VALID';
+
+                DECLARE
+                v_exist         NUMBER(38) := 0;
+                v_updated       NUMBER(38) := 0;
+                v_inserted      NUMBER(38) := 0;
+                v_amt           FLOAT(126) := 0;
+           BEGIN
+
+                begin
+                SELECT COUNT(*) INTO v_exist FROM MGTB_ERROR_DETAILS;
+                IF (SQL%ROWCOUNT > 0) THEN
+                        DBMS_OUTPUT.PUT_LINE('into updating...');
+                        ROLLBACK;
+                RETURN;
+                END IF;
+                exception
+                when others then
+                        DBMS_OUTPUT.PUT_LINE('into updating:'|| TO_CHAR(SQLCODE)||':'||SQLERRM);
+                        RAISE;
+                end;
+
+                ROLLBACK;
+
+        END;
+/
+SPOOL OFF
+quit;
+
+/	
+
+-------------------------------------------------------------------------
+
+declare
+counter number;
+cursor cur is select table_name from user_tables;
+
+begin
+
+for rec in cur loop
+
+        execute immediate 'select count(1)  from '|| rec.table_name into counter;
+        IF counter > 1000 and counter < 6000
+        THEN
+                dbms_output.put_line('Table : ' || rec.table_name || '; Row Count : ' || counter);
+        END IF;
+        counter := 0;
+end loop;
+
+end;
+/
+
+------------------------------------------------------------------------------------------------
 
             	--ACCEPT     vPREV_DATE     PROMPT        'Date (exemple 20140701):  ';
                 DECLARE
