@@ -1,5 +1,25 @@
 SET SERVEROUTPUT ON
+---
+with tmp (code, description) as
+      (select 12, 'Missing Work' from dual union all
+       select 14, 'Absent'       from dual union all
+       select 22, 'Incomplete'   from dual
+      ),
+      table1 (c_date, task, code) as
+     (select date '2019-05-30', 'Homework', 12 from dual union all
+       select date '2019-05-31', 'Labwork' , 14 from dual union all
+      select date '2019-05-30', 'Other'   , 22 from dual
+     )
+   select t.c_date, t.task, t.code, e.description
+   from table1 t join tmp e on e.code = t.code;
 
+C_DATE     TASK           CODE DESCRIPTION
+---------- -------- ---------- ------------
+05/30/2019 Homework         12 Missing Work
+05/31/2019 Labwork          14 Absent
+05/30/2019 Other            22 Incomplete
+
+---
 SPOOL output.out
 
 select count(*) from user_objects where status<>'VALID';
