@@ -52,6 +52,28 @@ SPOOL OFF
 quit;
 
 /	
+-------------------------------------------------------------------------
+
+SET SERVEROUTPUT ON;
+DECLARE
+CURSOR c_cur IS SELECT * FROM all_tables where rownum<10;
+lv_emp c_cur%ROWTYPE;
+
+BEGIN
+OPEN c_cur;
+
+LOOP
+FETCH c_cur INTO lv_emp;
+IF c_cur%NOTFOUND
+THEN
+EXIT;
+END IF;
+Dbms_output.put_line('Employee Fetched:'||lv_emp.table_name||'-'||lv_emp.tablespace_name);
+END LOOP;
+Dbms_output.put_line('Total rows fetched is'||c_cur%ROWCOUNT);
+CLOSE c_cur;
+END;
+/
 
 -------------------------------------------------------------------------
 
