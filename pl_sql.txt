@@ -56,45 +56,50 @@ quit;
 
 SET SERVEROUTPUT ON;
 DECLARE
-CURSOR c_cur IS SELECT * FROM all_tables where rownum<10;
-lv_emp c_cur%ROWTYPE;
+	CURSOR c_cur IS select table_name from user_tables where table_name like 'ACC%';
+	r_type c_cur%ROWTYPE;
+    cnt number;
 
 BEGIN
 OPEN c_cur;
 
 LOOP
-FETCH c_cur INTO lv_emp;
-IF c_cur%NOTFOUND
-THEN
-EXIT;
-END IF;
-Dbms_output.put_line('Employee Fetched:'||lv_emp.table_name||'-'||lv_emp.tablespace_name);
+	FETCH c_cur INTO r_type;
+	IF c_cur%NOTFOUND
+		THEN
+		EXIT;
+	END IF;
+    execute immediate 'select count(1)  from '|| r_type.table_name into cnt;
+    IF cnt > 0 and cnt < 6000
+        THEN
+                dbms_output.put_line('Table : ' || r_type.table_name || '; Row Count : ' || cnt);
+    END IF;
+    cnt := 0;
 END LOOP;
-Dbms_output.put_line('Total rows fetched is'||c_cur%ROWCOUNT);
+	Dbms_output.put_line('Total rows :'||c_cur%ROWCOUNT);
+
 CLOSE c_cur;
+
 END;
 /
 
 -------------------------------------------------------------------------
 
-declare
-counter number;
-cursor cur is select table_name from user_tables;
-
-begin
-
-for rec in cur loop
-
-        execute immediate 'select count(1)  from '|| rec.table_name into counter;
-        IF counter > 1000 and counter < 6000
-        THEN
-                dbms_output.put_line('Table : ' || rec.table_name || '; Row Count : ' || counter);
-        END IF;
-        counter := 0;
-end loop;
-
-end;
-/
+  select CUST, ID from 
+  (select aa.*, count(distinct aa.ID) over (partition by aa.CUST) cnt from 
+    (select  a.CUST, a.ID
+        from lmtm_limits_cust_rest a
+        group by a.CUST, a.ID) aa
+    join (select b.ID from  lmtm_limits b
+        where
+        b.RECORD_STAT = 'O'
+        group by b.ID) bb
+        on aa.ID = bb.ID
+        and exists (select 1 from lmtm_liab l where l.ID = aa.ID and record_stat = 'O')
+        and exists (select 1 from sttm_customer c where c.CUST = aa.CUST and record_stat = 'O')
+    )
+  where cnt > 1 
+  order by CUST;
 
 ------------------------------------------------------------------------------------------------
 
