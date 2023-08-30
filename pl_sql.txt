@@ -102,13 +102,13 @@ END;
 
 -- Find value exist in other column
 
-    select l.id1, l.id2, l.id3 LINE_ID, l.acc from tab1 l 
+    select l.id1, l.id2, l.id3, l.old_acc from tab1 l 
     join tab2 u
-    where l.acc is not null
-    and l.acc like 'MHO%' and l.status = 'O'
+    where l.old_acc is not null
+    and l.old_acc like '123%' and l.status = 'O'
     and u.status='O'
-    group by l.id1, l.id2, l.id3, l.acc
-    having count(CASE WHEN l.acc = u.acc THEN 1 END) = 0;
+    group by l.id1, l.id2, l.id3, l.old_acc
+    having count(CASE WHEN l.old_acc = u.acc THEN 1 END) = 0;
 	
 ------------------------------------------------------------------------------------------------
 
