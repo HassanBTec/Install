@@ -85,21 +85,20 @@ END;
 
 -------------------------------------------------------------------------
 
-  select CUST, ID from 
-  (select aa.*, count(distinct aa.ID) over (partition by aa.CUST) cnt from 
-    (select  a.CUST, a.ID
-        from lmtm_limits_cust_rest a
-        group by a.CUST, a.ID) aa
-    join (select b.ID from  lmtm_limits b
-        where
-        b.RECORD_STAT = 'O'
-        group by b.ID) bb
-        on aa.ID = bb.ID
-        and exists (select 1 from lmtm_liab l where l.ID = aa.ID and record_stat = 'O')
-        and exists (select 1 from sttm_customer c where c.CUST = aa.CUST and record_stat = 'O')
-    )
-  where cnt > 1 
-  order by CUST;
+ with tm(owner, table_name, tablespace_name, num_rows) as
+ (
+            select a.owner, a.table_name, a.tablespace_name, a.num_rows from all_tables a
+ ) 
+ select m.owner, m.table_name, m.tablespace_name, m.num_rows, round(m.num_rows, -3), row_number() over (order by m.owner, m.table_name) SEQ 
+    from (select t.*, count(distinct round(t.num_rows, -3)) over (partition by t.owner) cnt from 
+        tm t
+        where 
+            t.tablespace_name is not null
+            and t.owner <> 'SYS'
+            and t.num_rows > 10000
+            --and t.acc not in (select distinct acc from tm u where t.id1 = u.id1 and t.id2 is null and u.acc = t.acc and u.acc = u.acc_no)
+    ) m
+    where cnt > 1;
 
 ------------------------------------------------------------------------------------------------
 
