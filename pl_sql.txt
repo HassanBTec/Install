@@ -100,7 +100,7 @@ END;
     ) m
     where cnt > 1;
 
--- Find value exist in other column
+-- Find value exist which doesn't exist in other column
 
     select l.id1, l.id2, l.id3, l.old_acc from tab1 l 
     join tab2 u
