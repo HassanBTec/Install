@@ -109,7 +109,44 @@ END;
     and u.status='O'
     group by l.id1, l.id2, l.id3, l.old_acc
     having count(CASE WHEN l.old_acc = u.acc THEN 1 END) = 0;
-	
+
+-- Using functions to join PL/SQL	
+
+create or replace type typ_person
+        as object (
+          table_name varchar2(30),
+          tablespace_name varchar2(30)
+        );
+/
+create or replace type tbl_person
+     as table of typ_person;
+/
+CREATE OR REPLACE function get_person_list
+      return tbl_person
+    is
+      l_people tbl_person;
+    begin
+      select typ_person (table_name, tablespace_name)
+        bulk collect into l_people
+        from user_tables;
+      return l_people;
+  end;
+/
+DECLARE
+    L_COUNT   NUMBER;
+    --type tbl_person is table of typ_person;
+    --type tbl_person as table of typ_person;
+BEGIN
+    FOR I IN (
+    select count(*) L_COUNT
+      from user_tables e
+           join table (get_person_list()) p on (p.table_name = e.table_name)
+    ) 
+    LOOP
+        DBMS_OUTPUT.PUT_LINE('Result: ' || I.L_COUNT);
+    END LOOP;
+END;
+/
 ------------------------------------------------------------------------------------------------
 
             	--ACCEPT     vPREV_DATE     PROMPT        'Date (exemple 20140701):  ';
