@@ -1,3 +1,34 @@
+--
+SET echo off;
+SET verify off;
+SET pages 50000;
+SET pagesize 50000
+SET feedback off;
+set headsep off;
+SET newpage none;
+SET termout off;
+SET linesize 900;
+SET trimspool on;
+SET serveroutput on;
+
+set markup csv on delimi ';' quote off;
+
+-- make sure to run command sed $'s/\t*$/\r/' for CR LF.
+
+spool RSSBEP-24651_25AugData.csv;
+
+alter session set nls_date_format = 'YYYYmmdd';
+
+WITH TM AS
+(
+  ...
+)
+SELECT ...;
+
+spool off;
+
+---------------------------------
+
 SET SERVEROUTPUT ON
 ---
 with tmp (code, description) as
