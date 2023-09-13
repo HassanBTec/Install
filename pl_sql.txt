@@ -25,6 +25,19 @@ WITH TM AS
 )
 SELECT ...;
 
+CASE
+  WHEN ...
+  WHEN LINE_CD = 'TOTAL_ALL'
+    THEN 
+        (SELECT COALESCE(MAX(CASE WHEN T1.LINE_CD IN(...) 
+          THEN 'INTRNTL' ELSE 'TOTAL_ALL' END), 'TOTAL_ALL')	
+          FROM LMTM_LIMITS T1	
+          WHERE T1.MAIN_LINE LIKE 'TOTAL_ALL%' AND T1.LINE_CD IN(...)
+          AND T1.LIAB_ID = T.LIAB_ID AND T1.RECORD_STAT = 'O')
+  ELSE
+    ...
+  END
+
 spool off;
 
 ---------------------------------
