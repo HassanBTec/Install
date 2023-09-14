@@ -23,13 +23,13 @@ WITH TM AS
 (
   ...
 )
-SELECT     (SELECT CASE WHEN a.tenor between b.from_tenor and b.to_tenor THEN b.tenor ELSE '' END from tm b
+SELECT     (SELECT CASE WHEN a.tenor between b.from_tenor and b.to_tenor THEN b.tenor ELSE '' END FROM TM b
                         where a.tenor between b.from_tenor and b.to_tenor) AS tenor
             , '' from ...;
 
 CASE
   WHEN ...
-  WHEN LINE_CD = 'TOTAL_ALL'
+  WHEN LINE_CD LIKE 'TOTAL%'
     THEN 
         (SELECT COALESCE(MAX(CASE WHEN T1.LINE_CD IN(...) 
           THEN 'INTRNTL' ELSE 'TOTAL' END), 'TOTAL')	
