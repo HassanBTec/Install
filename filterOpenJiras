@@ -1,0 +1,1 @@
+Workstream = "Data Management" AND status != COMPLÈTÈ AND resolution = Unresolved AND assignee in (...) AND created <= -10d AND ( (  (duedate < -1d) AND (issuetype = "Deliverable")  ) OR issuetype not in ("Work Package", "Deliverable") )
