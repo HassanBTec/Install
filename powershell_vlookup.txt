@@ -1,18 +1,19 @@
-$a = import-csv -Path "Liability_migration_MigDate_RunDate.csv" | Select-Object -Property *,@{n='LIAB_MAP'; e={ "$($_.LIAB_NO_105)~$($_.LIAB_NO_14X)" }}
+##
 
-$b = import-csv -Path ".\Level6_7-ELCM_Liability_14.7.0.1_SIT2A_25AUG2023.csv"
+$a = import-csv -Path "all-listValues.csv" | Select-Object -Property *,@{n='MASTER_LIST'; e={ "$($_.LIAB_NO_105)~$($_.LIAB_NO_14X)" }}
 
-$a |measure-object -- count rows
+$b = import-csv -Path ".\sublist.csv" | Select-Object -Property *,@{n='SUB_LIST'; e={ "$($_.LIAB_KEY)" }},@{n='RETURN_VALUE'; e={ "$($_.V10_LIAB_NO)" }}
 
-$a |select-object -property LIAB_MAP -Unique |measure-object
+
+$a |select-object -property LIAB_MAP -Unique |measure-object  #count rows
 
 $a |format-table |Select-Object -First 10
 
-$b | % { $hash = @{} } { $hash[$_.liab_key] = $_ }
+$b | % { $hash = @{} } { $hash[$_.sub_list] = $_ }
 
 
- $result = $a | % { [pscustomobject]@{
-           liab_map=$_.liab_map
-           v10_liab_no=$hash[$_.liab_map].v10_liab_no
+$result = $a | % { [pscustomobject]@{
+           master_list=$_.master_list
+           return_value=$hash[$_.master_list].return_value
          }
-       } | Where-Object liab_key -eq $Null | Export-Csv -NoType ".\vlookupa.csv" -Encoding UTF8
+       } | Where-Object return_value -eq $Null | Export-Csv -NoType ".\vlookup2.csv" -Encoding UTF8
