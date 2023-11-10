@@ -100,34 +100,33 @@ quit;
 /	
 -------------------------------------------------------------------------
 
-SET SERVEROUTPUT ON;
-DECLARE
-	CURSOR c_cur IS select table_name from user_tables where table_name like 'ACC%';
-	r_type c_cur%ROWTYPE;
-    cnt number;
+--
+----- Search value B1
 
-BEGIN
-OPEN c_cur;
-
-LOOP
-	FETCH c_cur INTO r_type;
-	IF c_cur%NOTFOUND
-		THEN
-		EXIT;
-	END IF;
-    execute immediate 'select count(1)  from '|| r_type.table_name into cnt;
-    IF cnt > 0 and cnt < 6000
-        THEN
-                dbms_output.put_line('Table : ' || r_type.table_name || '; Row Count : ' || cnt);
-    END IF;
-    cnt := 0;
-END LOOP;
-	Dbms_output.put_line('Total rows :'||c_cur%ROWCOUNT);
-
-CLOSE c_cur;
-
-END;
-/
+WITH tmp (table_name) AS
+(
+        select table_name
+        from all_tables
+        where to_number(extractvalue(xmltype(dbms_xmlgen.getxml('select count(1) c from '||owner||'.'||table_name)),'/ROWSET/ROW/C')) between 1 and 100000
+)
+,  char_cols AS
+  (SELECT /*+materialize */ c.table_name, c.column_name
+   FROM   cols c join tmp t on (c.table_name = t.table_name)
+   WHERE  c.data_type IN ('CHAR', 'VARCHAR2'))
+SELECT DISTINCT SUBSTR ('B1', 1, 11) "Searchword",
+       SUBSTR (table_name, 1, 30) "Table",
+       SUBSTR (column_name, 1, 30) "Column"
+FROM   char_cols,
+       TABLE (xmlsequence (dbms_xmlgen.getxmltype ('select "'
+       || column_name
+       || '" from "'
+       || table_name
+       || '" where upper("'
+       || column_name
+       || '") like upper(''%'
+       || 'B1'
+       || '%'')' ).extract ('ROWSET/ROW/*') ) ) t
+ORDER  BY "Table";
 
 -------------------------------------------------------------------------
 
