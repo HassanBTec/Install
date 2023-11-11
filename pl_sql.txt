@@ -100,33 +100,54 @@ quit;
 /	
 -------------------------------------------------------------------------
 
---
------ Search value B1
+-- Row count for all tables
 
-WITH tmp (table_name) AS
-(
-        select table_name
-        from all_tables
-        where to_number(extractvalue(xmltype(dbms_xmlgen.getxml('select count(1) c from '||owner||'.'||table_name)),'/ROWSET/ROW/C')) between 1 and 100000
-)
-,  char_cols AS
-  (SELECT /*+materialize */ c.table_name, c.column_name
-   FROM   cols c join tmp t on (c.table_name = t.table_name)
-   WHERE  c.data_type IN ('CHAR', 'VARCHAR2'))
-SELECT DISTINCT SUBSTR ('B1', 1, 11) "Searchword",
-       SUBSTR (table_name, 1, 30) "Table",
-       SUBSTR (column_name, 1, 30) "Column"
-FROM   char_cols,
-       TABLE (xmlsequence (dbms_xmlgen.getxmltype ('select "'
-       || column_name
-       || '" from "'
-       || table_name
-       || '" where upper("'
-       || column_name
-       || '") like upper(''%'
-       || 'B1'
-       || '%'')' ).extract ('ROWSET/ROW/*') ) ) t
-ORDER  BY "Table";
+ select table_name, to_number(extractvalue(xmltype(dbms_xmlgen.getxml('select count(1) c from '||user||'.'||table_name)),'/ROWSET/ROW/C')) as cnt
+        from user_tables
+        where (iot_type IS NULL or iot_type != 'IOT_OVERFLOW') and not regexp_instr(table_name, '[^[:alnum:]_]') > 0;
+
+------------- Search B1 value
+declare
+counter number;
+v_table varchar2(30);
+v_col varchar2(30);
+begin
+
+        FOR I IN    (
+                SELECT c.table_name, c.column_name, to_number(extractvalue(xmltype(dbms_xmlgen.getxml('select count(1) c from '||u.table_name)),'/ROWSET/ROW/C')) as cnt
+ FROM   cols c join user_tables u on (c.table_name = u.table_name)
+ WHERE  (u.iot_type IS NULL or u.iot_type != 'IOT_OVERFLOW') and not regexp_instr(u.table_name, '[^[:alnum:]_]') > 0
+ and c.data_type IN ('CHAR', 'VARCHAR2')
+                )
+                LOOP
+                BEGIN
+
+SELECT DISTINCT I.table_name into v_table--, I.column_name into v_col
+  FROM --cols c,
+  TABLE (xmlsequence (dbms_xmlgen.getxmltype ('select '
+  || I.column_name
+  || ' from '
+  || I.table_name
+  || ' where lower('
+  || I.column_name
+  || ') like lower(''%'
+  || 'B1'
+  || '%'')' ).extract ('ROWSET/ROW/*') ) ) a
+  where I.cnt < 100000;
+
+		IF v_table is not null THEN
+                	dbms_output.put_line('Table : ' || v_table || '; Column : ' || v_col);
+		END IF;
+			EXCEPTION 
+			WHEN NO_DATA_FOUND
+			THEN
+			  NULL;
+			  WHEN OTHERS THEN
+			     DBMS_OUTPUT.PUT_LINE('Exception:'|| TO_CHAR(SQLCODE)||':'||SQLERRM);
+                END;
+	END LOOP;
+END;
+/
 
 -------------------------------------------------------------------------
 
