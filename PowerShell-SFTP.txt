@@ -1,0 +1,7 @@
+# Copy To Server
+
+scp -i "~/.ssh/id_rsa" .\Srv-Snd\*.* DCG1234@czappdb306.certif.dj.com:~
+
+# Copy from server
+
+scp -i "~/.ssh/id_rsa" DCG1234@czappdb306.certif.dj.com:~/*.* .
