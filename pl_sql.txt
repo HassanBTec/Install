@@ -42,6 +42,17 @@ CASE
 
 spool off;
 
+-----------------------
+PIVOT+LISTAGG()
+---------------
+
+select * from (
+	select acc, ac_no, amount_tag, row_number() over (partition by acc order by null) rn from dailyLog
+	) pivot (
+		listagg(amount_tag, ';') within group (order by null) amount_tag, 
+		listagg(ac_no, ';') within group (order by null) ac_no
+		for rn in (1, 2)
+	);
 ---------------------------------
 
 SET SERVEROUTPUT ON
