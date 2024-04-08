@@ -1,6 +1,8 @@
 Add-Type -assembly "Microsoft.Office.Interop.Outlook"
 Add-type -assembly "System.Runtime.Interopservices"
 
+# test
+
 try
 {
 $outlook = [Runtime.Interopservices.Marshal]::GetActiveObject('Outlook.Application')
