@@ -40,6 +40,7 @@ column spool_name new_value S
 set termout off
 select to_char(sysdate, 'yyyymmdd-hh24miss') spool_name from dual;
 set termout on
+set echo on
 spool &S
 
 ALTER SESSION SET CURRENT_SCHEMA = ...;
