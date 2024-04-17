@@ -23,24 +23,26 @@ alias vi=vim
 
 --- login.sql ----
 
-define _editor=vi
+set history limit 900
 
--- set markup html on
+set highlighting on
 
-set heading on
-set timing on
-set history on
-set history 9999 
-set serveroutput on
+set highlighting string foreground yellow
 
-set pagesize 50000
-set sqlprompt "&_user> "
+define gname = 'SQL'
+column global_name new_value gname
+
+select sys_context('userenv','instance_name')||CHR(10)||'SQL' as global_name from dual;
+
+set sqlprompt '&&gname> '
 
 column spool_name new_value S
 set termout off
 select to_char(sysdate, 'yyyymmdd-hh24miss') spool_name from dual;
 set termout on
 spool &S
+
+ALTER SESSION SET CURRENT_SCHEMA = ...;
 
 
 ---  OUTPUT TO HTML -----------
