@@ -57,3 +57,63 @@ select count(*) from user_objects where status<>'VALID';
 SPOOL OFF
 quit;
 /
+
+
+
+-----------------  Profile Powershell ---------------
+
+#
+
+function fn-run-mig1 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig2 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig3 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig4 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig5 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig6 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig7 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig8 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+function fn-run-mig9 {
+    sql aaa@bbb:2553/FLXMIG10
+}
+
+Set-Alias flxmig10 fn-run-mig1
+
+Set-Alias mig2flxmigor fn-run-mig2
+
+Set-Alias preprod fn-run-mig3
+
+Set-Alias fcc-certif fn-run-mig4
+
+Set-Alias elcm fn-run-mig5
+
+Set-Alias obcl fn-run-mig6
+
+Set-Alias fcubsobpm fn-run-mig7
+
+Set-Alias obtrobtf fn-run-mig8
+
+Set-Alias migration fn-run-mig9
