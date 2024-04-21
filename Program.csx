@@ -1,5 +1,5 @@
 /***
- winget install Microsoft.DotNet.SDK.8
+ winget install Microsoft.DotNet.SDK.8 or extract bin archive
  dotnet tool install -g dotnet-script
  (dotnet script .\Program.csx)
  another tool :
