@@ -34,7 +34,7 @@ set highlighting string foreground yellow
 define gname = 'SQL'
 column global_name new_value gname
 
-select sys_context('userenv','instance_name')||CHR(10)||'SQL' as global_name from dual;
+--select sys_context('userenv','instance_name')||CHR(10)||'SQL' as global_name from dual;
 
 --set sqlprompt '&&gname> '
 
@@ -45,15 +45,17 @@ set termout on
 set echo on
 spool &S
 
+
 BEGIN
-  EXECUTE IMMEDIATE 'ALTER SESSION SET CURRENT_SCHEMA = ...';
+  EXECUTE IMMEDIATE 'ALTER SESSION SET CURRENT_SCHEMA = FCCPROD';
   EXCEPTION
     WHEN OTHERS THEN
-        DBMS_OUTPUT.PUT_LINE('User not found...');
-  END;
+        DBMS_OUTPUT.PUT_LINE('ID not found...');
+END;
 /
 
-select sys_context('userenv', 'current_schema'), sys_context('userenv','instance_name') from dual;
+-- 3rd Parameter will provide the pdb name
+select sys_context('userenv', 'current_schema'), sys_context('userenv','instance_name'), sys_context('USERENV','DB_NAME') from dual;
 
 ---  OUTPUT TO HTML -----------
 SET PAGESIZE 50000
