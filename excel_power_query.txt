@@ -1,3 +1,28 @@
+Excel Formulas
+--------------
+
+=DATEVALUE(TEXT(B2,"MM/DD/YYYY"))+TIMEVALUE(TEXT(C2,"HH:MM:SS"))
+=DATEVALUE(TEXT(D2,"MM/DD/YYYY"))+TIMEVALUE(TEXT(E2,"HH:MM:SS"))
+
+
+=(I2-H2)*24
+
+
+=FIXED(DOLLARFR(J2, 60))&" min"
+
+
+
+
+=SUMPRODUCT((COUNTIFS(T2:T99,"<"&MIN(T2:T99)+ROW(INDIRECT("1:"&ROUND((MAX(U2:U99)-MIN(T2:T99))*1440,0)))/1440-1/2880,U2:U99,">"&MIN(T2:T99)+ROW(INDIRECT("1:"&ROUND((MAX(U2:U99)-MIN(T2:U99))*1440,0)))/1440-1/2880)>0)+0)/60
+
+
+
+=VLOOKUP(A3,Sheet2!A1:L37,12)
+
+=LOOKUP(J2, {0,1,31,91}, {"0 Days","1-30 Days","31-90 Days","More than 91 days"})
+
+---
+
 
 Power Query M
 --------------
