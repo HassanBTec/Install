@@ -74,6 +74,11 @@ quit;
 -----------------  Profile Powershell ---------------
 
 #
+${ENV:JDK_HOME}= ".\jdk"
+${ENV:SQLPATH} = "..\sqlcl\bin"
+
+$ENV:PATH = "$ENV:JDK_HOME\BIN;$ENV:SQLPATH;$ENV:PATH"
+
 
 function fn-run-mig1 {
     sql aaa@bbb:2553/FLXMIG10
