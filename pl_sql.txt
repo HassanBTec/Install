@@ -1,21 +1,27 @@
 --
-SET echo off;
+-- csv extracts
+--
+
+SET echo off; 
 SET verify off;
-SET pages 50000;
-SET pagesize 50000
-SET feedback off;
-set headsep off;
-SET newpage none;
+SET pagesize 50000 
+SET trimspool on 
+SET underline off 
+SET headsep off;
+SET newpage none; 
 SET termout off;
-SET linesize 900;
-SET trimspool on;
+SET WRAP OFF;
+SET LINE 32000
+SET colsep ,
+
+SPOOL RSSBEP-21920.CSV
+...
+SPOOL OFF
+EXIT
+
 SET serveroutput on;
 
-set markup csv on delimi ';' quote off;
-
 -- make sure to run command sed $'s/\t*$/\r/' for CR LF.
-
-spool RSSBEP-24651_25AugData.csv;
 
 alter session set nls_date_format = 'YYYYmmdd';
 
