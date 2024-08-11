@@ -1,0 +1,76 @@
+﻿#EXTM3U
+#EXTINF:-1,Motor Racing
+https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
+#EXTINF:-1,Dubai Sports 2
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1300000.m3u8
+#EXTINF:-1,Dubai Sports 3
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8
+#EXTINF:-1,МАТЧ! Страна
+http://ca.seetv.cc/play/134/AE82884332C0DF3/video.m3u8?|User-agent=smartlabs
+#EXTINF:-1,Canal Motor
+http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
+
+#EXTINF:-1 channel-id="samsung-USBA3800005NI" tvg-id="USBA3800005NI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3800005NI_20240730T012746SQUARE.png" tvg-chno="1000" group-title="Animals‚ Nature & History" , Clarity 4K
+https://jmp2.uk/SamsungTVPlus/USBA3800005NI.m3u8
+
+#EXTINF:-1 channel-id="samsung-CABA8000043F" tvg-id="CABA8000043F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABA8000043F_20240716T002953SQUARE.png" tvg-chno="1157" group-title="Sports" , beIN SPORTS XTRA
+https://jmp2.uk/SamsungTVPlus/CABA8000043F.m3u8
+
+#EXTINF:-1 channel-id="samsung-USAJ4300001Q7" tvg-id="USAJ4300001Q7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300001Q7_20240716T002657SQUARE.png" tvg-chno="2372" group-title="Sports & Outdoors" , beIN SPORTS XTRA
+https://jmp2.uk/SamsungTVPlus/USAJ4300001Q7.m3u8
+
+#EXTINF:-1 channel-id="pluto-60492fdd9989d30007ccd30a" tvg-id="60492fdd9989d30007ccd30a" tvg-logo="https://images.pluto.tv/channels/60492fdd9989d30007ccd30a/colorLogoPNG.png" tvg-chno="4560" group-title="USA" , beIN SPORTS XTRA en español
+https://jmp2.uk/PlutoTV/60492fdd9989d30007ccd30a-alt.m3u8
+
+#EXTINF:-1 channel-id="samsung-CA1400004AE" tvg-id="CA1400004AE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" tvg-chno="1041" group-title="News & Opinion" , CTV News
+https://jmp2.uk/SamsungTVPlus/CA1400004AE.m3u8
+
+#EXTINF:-1 channel-id="samsung-CABC2300009KD" tvg-id="CABC2300009KD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300009KD_20240527T200831SQUARE.png" tvg-chno="1043" group-title="News & Opinion" , CBC News Explore
+https://jmp2.uk/SamsungTVPlus/CABC2300009KD.m3u8
+
+#EXTINF:-1 channel-id="samsung-CABC2300010E4" tvg-id="CABC2300010E4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300010E4_20240527T200833SQUARE.png" tvg-chno="1044" group-title="News & Opinion" , Radio-Canada INFO
+https://jmp2.uk/SamsungTVPlus/CABC2300010E4.m3u8
+
+#EXTINF:-1 channel-id="samsung-CA15000018F" tvg-id="CA15000018F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA15000018F_20240709T002008SQUARE.png" tvg-chno="1045" group-title="News & Opinion" , CBC News BC
+https://jmp2.uk/SamsungTVPlus/CA15000018F.m3u8
+
+#EXTINF:-1 channel-id="samsung-CA1500002Q4" tvg-id="CA1500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20240730T012845SQUARE.png" tvg-chno="1046" group-title="News & Opinion" , CBC News Toronto
+https://jmp2.uk/SamsungTVPlus/CA1500002Q4.m3u8
+
+#EXTINF:-1 channel-id="samsung-USBD420002446" tvg-id="USBD420002446" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD420002446_20240528T020945SQUARE.png" tvg-chno="2338" group-title="Sports & Outdoors" , NBC Sports
+https://jmp2.uk/SamsungTVPlus/USBD420002446.m3u8
+
+#EXTINF:-1 channel-id="pluto-6549306c83595c000815a696" tvg-id="6549306c83595c000815a696" tvg-logo="https://images.pluto.tv/channels/6549306c83595c000815a696/colorLogoPNG.png" tvg-chno="2791" group-title="USA" , NBC Sports
+https://jmp2.uk/PlutoTV/6549306c83595c000815a696-alt.m3u8
+
+#EXTINF:-1 channel-id="samsung-CABD1200012B8" tvg-id="CABD1200012B8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200012B8_20240722T231045SQUARE.png" tvg-chno="1228" group-title="Home & Food" , BBC Home & Garden
+https://jmp2.uk/SamsungTVPlus/CABD1200012B8.m3u8
+
+#EXTINF:-1 channel-id="samsung-CA800001ZX" tvg-id="CA800001ZX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA800001ZX_20240709T001958SQUARE.png" tvg-chno="1387" group-title="Kids" , BBC Kids
+https://jmp2.uk/SamsungTVPlus/CA800001ZX.m3u8
+
+#EXTINF:-1 channel-id="samsung-USBB2200014DK" tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20240520T222732SQUARE.png" tvg-chno="1114" group-title="News & Opinion" , NBC News NOW
+https://jmp2.uk/SamsungTVPlus/USBB2200014DK.m3u8
+
+#EXTINF:-1 channel-id="samsung-USBD300002TU" tvg-id="USBD300002TU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300002TU_20240611T050308SQUARE.png" tvg-chno="1510" group-title="Action & Drama" , ION
+https://jmp2.uk/SamsungTVPlus/USBD300002TU.m3u8
+
+#EXTINF:-1 channel-id="samsung-USBD300003LK" tvg-id="USBD300003LK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300003LK_20240702T044841SQUARE.png" tvg-chno="1511" group-title="Action & Drama" , ION Plus
+https://jmp2.uk/SamsungTVPlus/USBD300003LK.m3u8
+
+
+#EXTINF:-1 channel-id="samsung-USBA300017PK" tvg-id="USBA300017PK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300017PK_20240520T222742SQUARE.png" tvg-chno="1235" group-title="Movies" , Pluto TV Fantastic
+https://jmp2.uk/SamsungTVPlus/USBA300017PK.m3u8
+
+#EXTINF:-1 channel-id="samsung-USBA300005MK" tvg-id="USBA300005MK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20240520T222744SQUARE.png" tvg-chno="1406" group-title="Western & Classic TV" , Pluto TV Westerns
+https://jmp2.uk/SamsungTVPlus/USBA300005MK.m3u8
+
+#EXTINF:-1 channel-id="pluto-5b4e94282d4ec87bdcbb87cd" tvg-id="5b4e94282d4ec87bdcbb87cd" tvg-logo="https://images.pluto.tv/channels/5b4e94282d4ec87bdcbb87cd/colorLogoPNG.png" tvg-chno="210" group-title="USA" , Pluto TV Westerns
+https://jmp2.uk/PlutoTV/5b4e94282d4ec87bdcbb87cd-alt.m3u8
+
+#EXTINF:-1 channel-id="pluto-5ba3fb9c4b078e0f37ad34e8" tvg-id="5ba3fb9c4b078e0f37ad34e8" tvg-logo="https://images.pluto.tv/channels/5ba3fb9c4b078e0f37ad34e8/colorLogoPNG.png" tvg-chno="10" group-title="USA" , Pluto TV Spotlight
+https://jmp2.uk/PlutoTV/5ba3fb9c4b078e0f37ad34e8-alt.m3u8
+
+#EXTINF:-1 channel-id="pluto-561d7d484dc7c8770484914a" tvg-id="561d7d484dc7c8770484914a" tvg-logo="https://images.pluto.tv/channels/561d7d484dc7c8770484914a/colorLogoPNG.png" tvg-chno="30" group-title="USA" , Pluto TV Action
+https://jmp2.uk/PlutoTV/561d7d484dc7c8770484914a-alt.m3u8
+
