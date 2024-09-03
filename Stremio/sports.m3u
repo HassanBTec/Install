@@ -1,76 +1,225 @@
 ﻿#EXTM3U
 #EXTINF:-1,Motor Racing
 https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
-#EXTINF:-1,Dubai Sports 2
-http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1300000.m3u8
-#EXTINF:-1,Dubai Sports 3
-http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8
-#EXTINF:-1,МАТЧ! Страна
-http://ca.seetv.cc/play/134/AE82884332C0DF3/video.m3u8?|User-agent=smartlabs
-#EXTINF:-1,Canal Motor
-http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBA3800005NI" tvg-id="USBA3800005NI" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3800005NI_20240730T012746SQUARE.png" tvg-chno="1000" group-title="Animals‚ Nature & History" , Clarity 4K
-https://jmp2.uk/SamsungTVPlus/USBA3800005NI.m3u8
-
-#EXTINF:-1 channel-id="samsung-CABA8000043F" tvg-id="CABA8000043F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABA8000043F_20240716T002953SQUARE.png" tvg-chno="1157" group-title="Sports" , beIN SPORTS XTRA
-https://jmp2.uk/SamsungTVPlus/CABA8000043F.m3u8
-
-#EXTINF:-1 channel-id="samsung-USAJ4300001Q7" tvg-id="USAJ4300001Q7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300001Q7_20240716T002657SQUARE.png" tvg-chno="2372" group-title="Sports & Outdoors" , beIN SPORTS XTRA
-https://jmp2.uk/SamsungTVPlus/USAJ4300001Q7.m3u8
-
-#EXTINF:-1 channel-id="pluto-60492fdd9989d30007ccd30a" tvg-id="60492fdd9989d30007ccd30a" tvg-logo="https://images.pluto.tv/channels/60492fdd9989d30007ccd30a/colorLogoPNG.png" tvg-chno="4560" group-title="USA" , beIN SPORTS XTRA en español
-https://jmp2.uk/PlutoTV/60492fdd9989d30007ccd30a-alt.m3u8
-
-#EXTINF:-1 channel-id="samsung-CA1400004AE" tvg-id="CA1400004AE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" tvg-chno="1041" group-title="News & Opinion" , CTV News
-https://jmp2.uk/SamsungTVPlus/CA1400004AE.m3u8
-
-#EXTINF:-1 channel-id="samsung-CABC2300009KD" tvg-id="CABC2300009KD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300009KD_20240527T200831SQUARE.png" tvg-chno="1043" group-title="News & Opinion" , CBC News Explore
-https://jmp2.uk/SamsungTVPlus/CABC2300009KD.m3u8
-
-#EXTINF:-1 channel-id="samsung-CABC2300010E4" tvg-id="CABC2300010E4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300010E4_20240527T200833SQUARE.png" tvg-chno="1044" group-title="News & Opinion" , Radio-Canada INFO
-https://jmp2.uk/SamsungTVPlus/CABC2300010E4.m3u8
-
-#EXTINF:-1 channel-id="samsung-CA15000018F" tvg-id="CA15000018F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA15000018F_20240709T002008SQUARE.png" tvg-chno="1045" group-title="News & Opinion" , CBC News BC
-https://jmp2.uk/SamsungTVPlus/CA15000018F.m3u8
-
-#EXTINF:-1 channel-id="samsung-CA1500002Q4" tvg-id="CA1500002Q4" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20240730T012845SQUARE.png" tvg-chno="1046" group-title="News & Opinion" , CBC News Toronto
-https://jmp2.uk/SamsungTVPlus/CA1500002Q4.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD420002446" tvg-id="USBD420002446" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD420002446_20240528T020945SQUARE.png" tvg-chno="2338" group-title="Sports & Outdoors" , NBC Sports
-https://jmp2.uk/SamsungTVPlus/USBD420002446.m3u8
-
-#EXTINF:-1 channel-id="pluto-6549306c83595c000815a696" tvg-id="6549306c83595c000815a696" tvg-logo="https://images.pluto.tv/channels/6549306c83595c000815a696/colorLogoPNG.png" tvg-chno="2791" group-title="USA" , NBC Sports
-https://jmp2.uk/PlutoTV/6549306c83595c000815a696-alt.m3u8
-
-#EXTINF:-1 channel-id="samsung-CABD1200012B8" tvg-id="CABD1200012B8" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200012B8_20240722T231045SQUARE.png" tvg-chno="1228" group-title="Home & Food" , BBC Home & Garden
-https://jmp2.uk/SamsungTVPlus/CABD1200012B8.m3u8
-
-#EXTINF:-1 channel-id="samsung-CA800001ZX" tvg-id="CA800001ZX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA800001ZX_20240709T001958SQUARE.png" tvg-chno="1387" group-title="Kids" , BBC Kids
-https://jmp2.uk/SamsungTVPlus/CA800001ZX.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBB2200014DK" tvg-id="USBB2200014DK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2200014DK_20240520T222732SQUARE.png" tvg-chno="1114" group-title="News & Opinion" , NBC News NOW
-https://jmp2.uk/SamsungTVPlus/USBB2200014DK.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD300002TU" tvg-id="USBD300002TU" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300002TU_20240611T050308SQUARE.png" tvg-chno="1510" group-title="Action & Drama" , ION
-https://jmp2.uk/SamsungTVPlus/USBD300002TU.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBD300003LK" tvg-id="USBD300003LK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300003LK_20240702T044841SQUARE.png" tvg-chno="1511" group-title="Action & Drama" , ION Plus
-https://jmp2.uk/SamsungTVPlus/USBD300003LK.m3u8
-
-
-#EXTINF:-1 channel-id="samsung-USBA300017PK" tvg-id="USBA300017PK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300017PK_20240520T222742SQUARE.png" tvg-chno="1235" group-title="Movies" , Pluto TV Fantastic
-https://jmp2.uk/SamsungTVPlus/USBA300017PK.m3u8
-
-#EXTINF:-1 channel-id="samsung-USBA300005MK" tvg-id="USBA300005MK" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300005MK_20240520T222744SQUARE.png" tvg-chno="1406" group-title="Western & Classic TV" , Pluto TV Westerns
-https://jmp2.uk/SamsungTVPlus/USBA300005MK.m3u8
-
-#EXTINF:-1 channel-id="pluto-5b4e94282d4ec87bdcbb87cd" tvg-id="5b4e94282d4ec87bdcbb87cd" tvg-logo="https://images.pluto.tv/channels/5b4e94282d4ec87bdcbb87cd/colorLogoPNG.png" tvg-chno="210" group-title="USA" , Pluto TV Westerns
-https://jmp2.uk/PlutoTV/5b4e94282d4ec87bdcbb87cd-alt.m3u8
-
-#EXTINF:-1 channel-id="pluto-5ba3fb9c4b078e0f37ad34e8" tvg-id="5ba3fb9c4b078e0f37ad34e8" tvg-logo="https://images.pluto.tv/channels/5ba3fb9c4b078e0f37ad34e8/colorLogoPNG.png" tvg-chno="10" group-title="USA" , Pluto TV Spotlight
-https://jmp2.uk/PlutoTV/5ba3fb9c4b078e0f37ad34e8-alt.m3u8
-
-#EXTINF:-1 channel-id="pluto-561d7d484dc7c8770484914a" tvg-id="561d7d484dc7c8770484914a" tvg-logo="https://images.pluto.tv/channels/561d7d484dc7c8770484914a/colorLogoPNG.png" tvg-chno="30" group-title="USA" , Pluto TV Action
-https://jmp2.uk/PlutoTV/561d7d484dc7c8770484914a-alt.m3u8
-
+#EXTINF:-1 group-title="Arab Bein",BN031 Bein Sport 4 FHD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59268#checkedby:iptvlister.com
+#EXTINF:-1 group-title="BEIN SPORTS MENA",AR BEIN SPORTS 6 FHD HEVC iptvlister.com
+http://ipro.webvps.de:25443/live/o1tEXUfCO0/QE4I5CeVb1/28270.ts#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports Max 8 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4370#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN030 Bein Sport 3 FHD Backup NO_4 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59269#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 5 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/104#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORTS MAX 4 HD iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56469#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports English 2 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/111#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 3 Backup NO_2 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/1739#checkedby:iptvlister.com
+#EXTINF:-1,US beIN Sports iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/284530#checkedby:iptvlister.com
+#EXTINF:-1 group-title="USA ➾ Sports",beIN Sports iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/284530#checkedby:iptvlister.com
+#EXTINF:-1 group-title="BEIN SPORTS MENA",AR BEIN SPORTS PREMIUM 3 FHD 4K iptvlister.com
+http://ipro.webvps.de:25443/live/o1tEXUfCO0/QE4I5CeVb1/30758.ts#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN022 Bein Sports Premium 1 Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2120#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR041 BEIN SPORTS MAX 5 HD (EVENT) (ONLY) Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2825#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 8 iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56473#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports English 1 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/110#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN034 Bein Sport 7 FHD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59265#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France ➾ Football",beIN Sports 1 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/144#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France",beIN Sports Max 5 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/6083#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN001 BeIN Sport News Backup NO_2 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2141#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 3 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/102#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports Xtra 2 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/283294#checkedby:iptvlister.com
+#EXTINF:-1,US beIN Sports 6 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151030#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR039 BEIN SPORTS MAX 10 FHD (EVENT) (ONLY) Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2827#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR036 BEIN SPORTS 1 FHD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2830#checkedby:iptvlister.com
+#EXTINF:-1,US beIN Sports USA iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/296691#checkedby:iptvlister.com
+#EXTINF:-1,US beIN Sports 5 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151026#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 8 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/4370#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 7 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/4369#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports Max 2 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/16878#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports Haber iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/7448#checkedby:iptvlister.com
+#EXTINF:-1,AR |BEIN| BEIN SPORTS 3 HEVC iptvlister.com
+http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/47277#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports Max 10 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/6088#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT 2 HD iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56467#checkedby:iptvlister.com
+#EXTINF:-1,AU beIN Sports 3 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/35340#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 6 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/105#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports English 3 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/267769#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/280725#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 5 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/300982#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN033 Bein Sport 6 FHD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59266#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 4 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/7450#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT 1 HD Backup NO_4 iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56466#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN025 Bein Sports Premium 3 Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2117#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports Max 1 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/8224#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 7 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/106#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN023 Bein Sports Premium 2 Backup NO_4 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2119#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT 2 HD Backup NO_1 iptvlister.com
+http://agramat.ro:8080/cuzuban_ionut/U3reV7nqj0/56467#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports Max 4 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/3599#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports 3 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/146#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR044 BEIN SPORTS MAX 8 HD (EVENT) (ONLY) Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2822#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 1 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/100#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR045 BEIN SPORTS MAX 9 HD (EVENT) (ONLY) Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2821#checkedby:iptvlister.com
+#EXTINF:-1 group-title="USA ➾ Sports",beIN Sports 2 Backup NO_1 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/151022#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 8 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/107#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN005 BeIN Sport 4 HD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2137#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports Xtra 1 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/290037#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 9 iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56474#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN028 Bein Sport 1 FHD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59271#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 2 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/101#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN003 BeIN Sport 2 HD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2139#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN035 Bein Sports Max 1 Backup NO_2 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59264#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR040 BEIN SPORTS MAX 4 FHD (EVENT) (ONLY) Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2826#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN012 BeIN Sport ENG 1 Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2130#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR037 BEIN SPORTS 2 FHD iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2829#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports News iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1266#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR043 BEIN SPORTS MAX 7 HD (EVENT) (ONLY) Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2823#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports Global iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/16779#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT 3 HD iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56468#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports Max 9 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4371#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 6 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/4368#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 9 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/108#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports Max 6 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4368#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports 1 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/144#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR038 BEIN SPORTS 3 FHD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2828#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN019 BeIN Sport ENG 3 Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2123#checkedby:iptvlister.com
+#EXTINF:-1,US beIN Sports 2 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151022#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France",beIN Sports Max 4 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/3599#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN006 BeIN Sport 5 HD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2136#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France ➾ Football",beIN Sports 3 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/146#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN002 BeIN Sport 1 HD Backup NO_4 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2140#checkedby:iptvlister.com
+#EXTINF:-1,QA beIN Sports 4 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/103#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports Max 5 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/6083#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN029 Bein Sport 2 FHD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59270#checkedby:iptvlister.com
+#EXTINF:-1 group-title="USA ➾ Sports",beIN Sports 3 Backup NO_1 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/151025#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN032 Bein Sport 5 FHD Backup NO_4 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59267#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France",beIN Sports Max 10 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/6088#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 2 Backup NO_2 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/1737#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 7 iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56472#checkedby:iptvlister.com
+#EXTINF:-1 group-title="USA Sports",US009 BeIN Sports 1 HD Backup NO_2 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/3159#checkedby:iptvlister.com
+#EXTINF:-1,AR |BEIN| BEIN SPORTS 10 HD iptvlister.com
+http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/144#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN008 BeIN Sport 7 HD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2134#checkedby:iptvlister.com
+#EXTINF:-1 group-title="FR Sports",FR042 BEIN SPORTS MAX 6 HD (EVENT) (ONLY) Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2824#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 1 Backup NO_1 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/1735#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN013 BeIN Sport ENG 2 Backup NO_4 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2129#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports 2 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/145#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 6 iptvlister.com
+http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56471#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 9 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/4371#checkedby:iptvlister.com
+#EXTINF:-1,US beIN Sports 3 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151025#checkedby:iptvlister.com
+#EXTINF:-1 group-title="Arab Bein",BN007 BeIN Sport 6 HD Backup NO_3 iptvlister.com
+http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2135#checkedby:iptvlister.com
+#EXTINF:-1 group-title="France ➾ Football",beIN Sports 2 iptvlister.com
+http://premiumiptvmk.com:8080/F19236/516c41c7/145#checkedby:iptvlister.com
+#EXTINF:-1,FR beIN Sports Max 7 iptvlister.com
+http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4369#checkedby:iptvlister.com
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6BVWk8z.png" group-title="Somalia github",Abu Dhabi Sports 1 (1080p) iptvlister.com
+https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8#checkedby:iptvlister.com
+#EXTINF:-1 tvg-country="AE" group-title="Sport",Abu Dhabi Sports 4 Backup NO_1 iptvlister.com
+http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_Sports4&checkedby:iptvlister.com
+#EXTINF:-1 group-title="ОАЕ",Abu Dhabi Sports 3 iptvlister.com
+http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_sports3&checkedby:iptvlister.com
+#EXTINF:-1 group-title="ОАЕ",Abu Dhabi Sports 2 iptvlister.com
+http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_sports2&checkedby:iptvlister.com
+#EXTINF:-1,AR |UAE| ABU DHABI SPORTS 2 HD iptvlister.com
+http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/2675#checkedby:iptvlister.com
+#EXTINF:-1 tvg-country="UN" group-title="Sport",Abu Dhabi Sports iptvlister.com
+http://www.elahmad.com/tv/m3u8/adtv.m3u8#checkedby:iptvlister.com
+#EXTINF:-1,AR |UAE| ABU DHABI SPORTS 1 HD iptvlister.com
+http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/2674#checkedby:iptvlister.com
+#EXTINF:-1 tvg-country="AE" group-title="Emirates",Abu Dhabi Sports,Abu Sports 1,Abu 1 HD (Opt-1) Sports1 iptvlister.com
+http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_sports1&checkedby:iptvlister.com
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4rVm3oZ.png" group-title="Sports github",Abu Dhabi Sports 2 (1080p) iptvlister.com
+https://vo-live.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel2/HLS/index.m3u8#checkedby:iptvlister.com
+#EXTINF:-1 group-title="ОАЕ",Abu Dhabi Sports 4 iptvlister.com
+http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_sports4&checkedby:iptvlister.com
+#EXTINF:-1 tvg-country="AE" group-title="Sport",Abu Dhabi Sports 3 Backup NO_1 iptvlister.com
+http://www.elahmad.com/tv/m3u8/adtv.m3u8?id=abudhabi_Sports3&checkedby:iptvlister.com
