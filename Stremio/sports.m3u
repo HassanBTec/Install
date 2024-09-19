@@ -2,6 +2,8 @@
 #EXTINF:-1,Motor Racing
 https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 #
+#EXTINF:-1, AR channels
+http://www.elahmad.com/tv/m3u/play_list_3.m3u?id=arabic_1&t=a549dc85fb675cc63f012d5dfd914291
 #EXTINF:-1 group-title="Arab Bein",BN031 Bein Sport 4 FHD Backup NO_3   
 http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59268 
 #EXTINF:-1 group-title="BEIN SPORTS MENA",AR BEIN SPORTS 6 FHD HEVC   
