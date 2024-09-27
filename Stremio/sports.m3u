@@ -3,9 +3,9 @@
 https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 #
 #EXTINF:-1,01.TNT SPORT 1
-http://192.168.7.58:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+http://192.168.7.198:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
 #EXTINF:0,02.TNT SPORT 2
-http://192.168.7.58:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
+http://192.168.7.198:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
 #EXTINF:0,03.TNT SPORT 3
 http://192.168.7.58:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
 #EXTINF:0,04.TNT SPORT 4
