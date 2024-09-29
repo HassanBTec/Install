@@ -28,7 +28,7 @@ http://192.168.7.58:6878/ace/getstream?id=731bd3336ec0986ff9100efe40dbaf1473a22c
 #EXTINF:-1,13.BEIN ES
 http://192.168.7.58:6878/ace/getstream?id=92a7dcc55392efc6dd5d012c4ff3878891eb6a6e
 #EXTINF:-1,14.Sky Action
-http://192.168.7.58:6878/ace/getstream?id=8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
+http://192.168.7.198:6878/ace/getstream?id=8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
 #EXTINF:-1,15.Sky Premiere
 http://192.168.7.58:6878/ace/getstream?id=3306fb30138814e54a46cd8dc1ef1c864e8b3b53
 #EXTINF:-1,16.Sky Special
