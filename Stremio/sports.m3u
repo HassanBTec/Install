@@ -33,6 +33,12 @@ acestream://8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
 acestream://3306fb30138814e54a46cd8dc1ef1c864e8b3b53
 #EXTINF:-1,16.Sky Special
 acestream://dd70fe2057d698d528f627c578733814b74557c5
+#EXTINF:-1,14.Sky Action2
+http://192.168.7.198:6878/ace/getstream?id=8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
+#EXTINF:-1,15.Sky Premiere2
+http://192.168.7.198:6878/ace/getstream?id=3306fb30138814e54a46cd8dc1ef1c864e8b3b53
+#EXTINF:-1,16.Sky Special2
+http://192.168.7.198:6878/ace/getstream?id=dd70fe2057d698d528f627c578733814b74557c5
 #EXTINF:-1,17.CANAL+ PL
 acestream://cc7b8c39f70aa342248d02c8ab55bafdb4116ed7
 #EXTINF:-1,18.NAT GEO W
