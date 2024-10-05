@@ -2,304 +2,100 @@
 #EXTINF:-1,01. Motor Racing
 https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 #EXTINF:-1,01.TNT SPORT 1
-http://192.168.7.58:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+acestream://efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
 #EXTINF:-1,02.TNT SPORT 2
-http://192.168.7.58:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
+acestream://d63d8a57cf471394bfa9f619bbd68b01ae27a801
 #EXTINF:-1,03.TNT SPORT 3
-http://192.168.7.58:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
+acestream://5f966c123759de46dff29c379266b7a403452033
 #EXTINF:-1,04.TNT SPORT 4
-http://192.168.7.58:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
+acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
 #EXTINF:-1,05. Premiere Sport 1 UK
-http://192.168.7.58:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
+acestream://75a56863b6fe0407ad4305b4d7ee5643c3923565
 #EXTINF:-1,06. Premiere Sport 2 UK
-http://192.168.7.58:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+acestream://4903ca695edb64bc72ae29eb85a5333ba0139537
 #EXTINF:-1,07. Eleven Sports HD
-http://192.168.7.58:6878/ace/getstream?id=14407b00d454cb7dc0d70aa26e8bbc554f457f00
+acestream://14407b00d454cb7dc0d70aa26e8bbc554f457f00
 #EXTINF:-1,08. DAZN
-http://192.168.7.58:6878/ace/getstream?id=36cad67fed5a739757a9db844a551aa845a8d51b
+acestream://36cad67fed5a739757a9db844a551aa845a8d51b
 #EXTINF:-1,09.BT SPORT/ESPN
-http://192.168.7.58:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
+acestream://fc5089d8e1519872fdf951779ccbca913acc9bce
 #EXTINF:-1,10.BEIN 1 BE
 acestream://bba1905fcd1c4975aec544047bf8e4cd23ce3fe0
 #EXTINF:-1,11.BEIN 2 BE
-http://192.168.7.58:6878/ace/getstream?id=edb507e38394d614c9ff55805c9d354ae13210bc
+acestream://edb507e38394d614c9ff55805c9d354ae13210bc
 #EXTINF:-1,12.BEIN 3 BE
-http://192.168.7.58:6878/ace/getstream?id=731bd3336ec0986ff9100efe40dbaf1473a22cf8
+acestream://731bd3336ec0986ff9100efe40dbaf1473a22cf8
 #EXTINF:-1,13.BEIN ES
-http://192.168.7.58:6878/ace/getstream?id=92a7dcc55392efc6dd5d012c4ff3878891eb6a6e
+acestream://92a7dcc55392efc6dd5d012c4ff3878891eb6a6e
 #EXTINF:-1,14.Sky Action
 acestream://8f3b3a4b42b8ad785eab4c426d0ce7bb891f4398
 #EXTINF:-1,15.Sky Premiere
-http://192.168.7.58:6878/ace/getstream?id=3306fb30138814e54a46cd8dc1ef1c864e8b3b53
+acestream://3306fb30138814e54a46cd8dc1ef1c864e8b3b53
 #EXTINF:-1,16.Sky Special
-http://192.168.7.58:6878/ace/getstream?id=dd70fe2057d698d528f627c578733814b74557c5
+acestream://dd70fe2057d698d528f627c578733814b74557c5
 #EXTINF:-1,17.CANAL+ PL
-http://192.168.7.58:6878/ace/getstream?id=cc7b8c39f70aa342248d02c8ab55bafdb4116ed7
+acestream://cc7b8c39f70aa342248d02c8ab55bafdb4116ed7
 #EXTINF:-1,18.NAT GEO W
-http://192.168.7.58:6878/ace/getstream?id=82fc15374047fb04b38e5b4a034a62d4ac3b2478
+acestream://82fc15374047fb04b38e5b4a034a62d4ac3b2478
 #EXTINF:-1,19.NAT GEO W PL
-http://192.168.7.58:6878/ace/getstream?id=67ad6e798f206193a5b8f456a622460d9c7d2e29
+acestream://67ad6e798f206193a5b8f456a622460d9c7d2e29
 #EXTINF:-1,20.NAT GEO W RU
-http://192.168.7.58:6878/ace/getstream?id=5347a5417c376ac10cdf9c1a3a26eadbe76c280a
+acestream://5347a5417c376ac10cdf9c1a3a26eadbe76c280a
 #EXTINF:-1,21.NAT GEO W DE
-http://192.168.7.58:6878/ace/getstream?id=394354a04edd738876b8b2ecab15d4765d33b37f
+acestream://394354a04edd738876b8b2ecab15d4765d33b37f
 #EXTINF:-1,22.HBO PL
-http://192.168.7.58:6878/ace/getstream?id=bb497b248bb728dbe27f731f084e06462c05a04c
+acestream://bb497b248bb728dbe27f731f084e06462c05a04c
 #EXTINF:-1,23.HBO 2 PL
-http://192.168.7.58:6878/ace/getstream?id=a17f77bbe25cb90f1b7b138ae718b6ae8997000c
+acestream://a17f77bbe25cb90f1b7b138ae718b6ae8997000c
 #EXTINF:-1,24.HBO 3 PL
-http://192.168.7.58:6878/ace/getstream?id=e2de327f6e9ea10cd76b52ddd5e03a63c0e1241d
+acestream://e2de327f6e9ea10cd76b52ddd5e03a63c0e1241d
 #EXTINF:-1,25.CINEMAX 1
-http://192.168.7.58:6878/ace/getstream?id=624ba2d277ec55c7d742acd687dadc6e69a8fea9
+acestream://624ba2d277ec55c7d742acd687dadc6e69a8fea9
 #EXTINF:-1,26.CINEMAX 2
-http://192.168.7.58:6878/ace/getstream?id=5cc11fdb007856a52f131a63a5baee1b15908046
+acestream://5cc11fdb007856a52f131a63a5baee1b15908046
 #EXTINF:-1,27.HBO RU
-http://192.168.7.58:6878/ace/getstream?id=1d0c80ad0fea549969a41ee000eb86f249d95a7b
+acestream://1d0c80ad0fea549969a41ee000eb86f249d95a7b
 #EXTINF:-1,28.EUROSPORT 1
-http://192.168.7.58:6878/ace/getstream?id=1e9b308c6b825203646420893f9b23a3542c01f4
+acestream://1e9b308c6b825203646420893f9b23a3542c01f4
 #EXTINF:-1,29.EUROSPORT 1 DE
-http://192.168.7.58:6878/ace/getstream?id=b8cad4710b1c3b2b84a82c1ece40c08517b8f766
+acestream://b8cad4710b1c3b2b84a82c1ece40c08517b8f766
 #EXTINF:-1,39.EUROSPORT 1 RU
-http://192.168.7.58:6878/ace/getstream?id=1b0bc4d4dcd609d3c092712e721392b199f50a62
+acestream://1b0bc4d4dcd609d3c092712e721392b199f50a62
 #EXTINF:-1,31.EUROSPORT 2 DE
-http://192.168.7.58:6878/ace/getstream?id=ac675c82d6dfd4a201532c18b42e48dacb7c32c6
+acestream://ac675c82d6dfd4a201532c18b42e48dacb7c32c6
 #EXTINF:-1,32.EUROSPORT 2 PL
-http://192.168.7.58:6878/ace/getstream?id=7aa9cc819c6fa781dea6b4de3aa5393258b766d8
+acestream://7aa9cc819c6fa781dea6b4de3aa5393258b766d8
 #EXTINF:-1,33.EUROSPORT 2 RU
-http://192.168.7.58:6878/ace/getstream?id=6176281b9c46a5621a0e88524f8dc621f173b8e0
+acestream://6176281b9c46a5621a0e88524f8dc621f173b8e0
 #EXTINF:-1,34.EUROSPORT PL
-http://192.168.7.58:6878/ace/getstream?id=314eb626864faf52e01624361bd6906b5406127f
+acestream://314eb626864faf52e01624361bd6906b5406127f
 #EXTINF:-1,35.FOX SPORTS 1
-http://192.168.7.58:6878/ace/getstream?id=c9c062941fbecb16ce29437f346ea7177d720898
+acestream://c9c062941fbecb16ce29437f346ea7177d720898
 #EXTINF:-1,36.FOX SPORTS 2
-http://192.168.7.58:6878/ace/getstream?id=cba8d369eac629b577750edb90370cd1c5fb03b7
+acestream://cba8d369eac629b577750edb90370cd1c5fb03b7
 #EXTINF:-1,37.SPORT1+ DE
-http://192.168.7.58:6878/ace/getstream?id=e61b6538df35e5016635dfa2b3073f5b82ee4c2b
+acestream://e61b6538df35e5016635dfa2b3073f5b82ee4c2b
 #EXTINF:-1,38.BEIN SPORTS 1 TR
-http://192.168.7.58:6878/ace/getstream?id=118416583faa3fb4f03800173429b6b844b43a52
+acestream://118416583faa3fb4f03800173429b6b844b43a52
 #EXTINF:-1,39.Футбол 1
-http://192.168.7.58:6878/ace/getstream?id=97a358fb03be9590e1766d937bc8902fc6b66737
+acestream://97a358fb03be9590e1766d937bc8902fc6b66737
 #EXTINF:-1,40.Футбол 1-
-http://192.168.7.58:6878/ace/getstream?id=e7aa45b8df0cd3a160c7f3e085f1343b00115964
+acestream://e7aa45b8df0cd3a160c7f3e085f1343b00115964
 #EXTINF:-1,41.Футбол 2
-http://192.168.7.58:6878/ace/getstream?id=4fb7d7f128d371205a6bce4caf4a3d68664728cf
+acestream://4fb7d7f128d371205a6bce4caf4a3d68664728cf
 #EXTINF:-1,42.Футбол 3
-http://192.168.7.58:6878/ace/getstream?id=b49b412148acd9b64a20eaa5e92b597a9ae9ff85
+acestream://b49b412148acd9b64a20eaa5e92b597a9ae9ff85
 #EXTINF:-1,43.Футбол
-http://192.168.7.58:6878/ace/getstream?id=fce354f24fe26ca527e2c38b14eb7b0c81f756dd
+acestream://fce354f24fe26ca527e2c38b14eb7b0c81f756dd
 #EXTINF:-1,44.Футбол 1 HD
-http://192.168.7.58:6878/ace/getstream?id=b28db77c5084da7993395d77df96c30bb134f0a9
+acestream://b28db77c5084da7993395d77df96c30bb134f0a9
 #EXTINF:-1,45.Футбол 2 HD
-http://192.168.7.58:6878/ace/getstream?id=ffbf8c687c788d9a1a7c651e24802ee773ff3f04
+acestream://ffbf8c687c788d9a1a7c651e24802ee773ff3f04
 #EXTINF:-1,46.Футбол 3 HD
-http://192.168.7.58:6878/ace/getstream?id=b6baa046075d82da300fc1b16de96067a8b9540e
-#EXTINF:-1 group-title="Arab Bein",BN031 Bein Sport 4 FHD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59268 
-#EXTINF:-1 group-title="BEIN SPORTS MENA",AR BEIN SPORTS 6 FHD HEVC   
-http://ipro.webvps.de:25443/live/o1tEXUfCO0/QE4I5CeVb1/28270.ts 
-#EXTINF:-1,FR beIN Sports Max 8   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4370 
-#EXTINF:-1 group-title="Arab Bein",BN030 Bein Sport 3 FHD Backup NO_4   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59269 
-#EXTINF:-1,QA beIN Sports 5   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/104 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORTS MAX 4 HD   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56469 
-#EXTINF:-1,QA beIN Sports English 2   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/111 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 3 Backup NO_2   
-http://premiumiptvmk.com:8080/F19236/516c41c7/1739 
-#EXTINF:-1,US beIN Sports   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/284530 
-#EXTINF:-1 group-title="USA ➾ Sports",beIN Sports   
-http://premiumiptvmk.com:8080/F19236/516c41c7/284530 
-#EXTINF:-1 group-title="BEIN SPORTS MENA",AR BEIN SPORTS PREMIUM 3 FHD 4K   
-http://ipro.webvps.de:25443/live/o1tEXUfCO0/QE4I5CeVb1/30758.ts 
-#EXTINF:-1 group-title="Arab Bein",BN022 Bein Sports Premium 1 Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2120 
-#EXTINF:-1 group-title="FR Sports",FR041 BEIN SPORTS MAX 5 HD (EVENT) (ONLY) Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2825 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 8   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56473 
-#EXTINF:-1,QA beIN Sports English 1   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/110 
-#EXTINF:-1 group-title="Arab Bein",BN034 Bein Sport 7 FHD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59265 
-#EXTINF:-1 group-title="France ➾ Football",beIN Sports 1   
-http://premiumiptvmk.com:8080/F19236/516c41c7/144 
-#EXTINF:-1 group-title="France",beIN Sports Max 5   
-http://premiumiptvmk.com:8080/F19236/516c41c7/6083 
-#EXTINF:-1 group-title="Arab Bein",BN001 BeIN Sport News Backup NO_2   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2141 
-#EXTINF:-1,QA beIN Sports 3   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/102 
-#EXTINF:-1,QA beIN Sports Xtra 2   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/283294 
-#EXTINF:-1,US beIN Sports 6   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151030 
-#EXTINF:-1 group-title="FR Sports",FR039 BEIN SPORTS MAX 10 FHD (EVENT) (ONLY) Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2827 
-#EXTINF:-1 group-title="FR Sports",FR036 BEIN SPORTS 1 FHD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2830 
-#EXTINF:-1,US beIN Sports USA   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/296691 
-#EXTINF:-1,US beIN Sports 5   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151026 
-#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 8   
-http://premiumiptvmk.com:8080/F19236/516c41c7/4370 
-#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 7   
-http://premiumiptvmk.com:8080/F19236/516c41c7/4369 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports Max 2   
-http://premiumiptvmk.com:8080/F19236/516c41c7/16878 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports Haber   
-http://premiumiptvmk.com:8080/F19236/516c41c7/7448 
-#EXTINF:-1,AR |BEIN| BEIN SPORTS 3 HEVC   
-http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/47277 
-#EXTINF:-1,FR beIN Sports Max 10   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/6088 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT 2 HD   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56467 
-#EXTINF:-1,AU beIN Sports 3   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/35340 
-#EXTINF:-1,QA beIN Sports 6   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/105 
-#EXTINF:-1,QA beIN Sports English 3   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/267769 
-#EXTINF:-1,QA beIN Sports   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/280725 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 5   
-http://premiumiptvmk.com:8080/F19236/516c41c7/300982 
-#EXTINF:-1 group-title="Arab Bein",BN033 Bein Sport 6 FHD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59266 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 4   
-http://premiumiptvmk.com:8080/F19236/516c41c7/7450 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT 1 HD Backup NO_4   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56466 
-#EXTINF:-1 group-title="Arab Bein",BN025 Bein Sports Premium 3 Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2117 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports Max 1   
-http://premiumiptvmk.com:8080/F19236/516c41c7/8224 
-#EXTINF:-1,QA beIN Sports 7   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/106 
-#EXTINF:-1 group-title="Arab Bein",BN023 Bein Sports Premium 2 Backup NO_4   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2119 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT 2 HD Backup NO_1   
-http://agramat.ro:8080/cuzuban_ionut/U3reV7nqj0/56467 
-#EXTINF:-1,FR beIN Sports Max 4   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/3599 
-#EXTINF:-1,FR beIN Sports 3   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/146 
-#EXTINF:-1 group-title="FR Sports",FR044 BEIN SPORTS MAX 8 HD (EVENT) (ONLY) Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2822 
-#EXTINF:-1,QA beIN Sports 1   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/100 
-#EXTINF:-1 group-title="FR Sports",FR045 BEIN SPORTS MAX 9 HD (EVENT) (ONLY) Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2821 
-#EXTINF:-1 group-title="USA ➾ Sports",beIN Sports 2 Backup NO_1   
-http://premiumiptvmk.com:8080/F19236/516c41c7/151022 
-#EXTINF:-1,QA beIN Sports 8   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/107 
-#EXTINF:-1 group-title="Arab Bein",BN005 BeIN Sport 4 HD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2137 
-#EXTINF:-1,QA beIN Sports Xtra 1   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/290037 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 9   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56474 
-#EXTINF:-1 group-title="Arab Bein",BN028 Bein Sport 1 FHD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59271 
-#EXTINF:-1,QA beIN Sports 2   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/101 
-#EXTINF:-1 group-title="Arab Bein",BN003 BeIN Sport 2 HD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2139 
-#EXTINF:-1 group-title="Arab Bein",BN035 Bein Sports Max 1 Backup NO_2   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59264 
-#EXTINF:-1 group-title="FR Sports",FR040 BEIN SPORTS MAX 4 FHD (EVENT) (ONLY) Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2826 
-#EXTINF:-1 group-title="Arab Bein",BN012 BeIN Sport ENG 1 Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2130 
-#EXTINF:-1 group-title="FR Sports",FR037 BEIN SPORTS 2 FHD   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2829 
-#EXTINF:-1,QA beIN Sports News   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/1266 
-#EXTINF:-1 group-title="FR Sports",FR043 BEIN SPORTS MAX 7 HD (EVENT) (ONLY) Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2823 
-#EXTINF:-1,QA beIN Sports Global   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/16779 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT 3 HD   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56468 
-#EXTINF:-1,FR beIN Sports Max 9   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4371 
-#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 6   
-http://premiumiptvmk.com:8080/F19236/516c41c7/4368 
-#EXTINF:-1,QA beIN Sports 9   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/108 
-#EXTINF:-1,FR beIN Sports Max 6   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4368 
-#EXTINF:-1,FR beIN Sports 1   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/144 
-#EXTINF:-1 group-title="FR Sports",FR038 BEIN SPORTS 3 FHD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2828 
-#EXTINF:-1 group-title="Arab Bein",BN019 BeIN Sport ENG 3 Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2123 
-#EXTINF:-1,US beIN Sports 2   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151022 
-#EXTINF:-1 group-title="France",beIN Sports Max 4   
-http://premiumiptvmk.com:8080/F19236/516c41c7/3599 
-#EXTINF:-1 group-title="Arab Bein",BN006 BeIN Sport 5 HD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2136 
-#EXTINF:-1 group-title="France ➾ Football",beIN Sports 3   
-http://premiumiptvmk.com:8080/F19236/516c41c7/146 
-#EXTINF:-1 group-title="Arab Bein",BN002 BeIN Sport 1 HD Backup NO_4   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2140 
-#EXTINF:-1,QA beIN Sports 4   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/103 
-#EXTINF:-1,FR beIN Sports Max 5   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/6083 
-#EXTINF:-1 group-title="Arab Bein",BN029 Bein Sport 2 FHD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59270 
-#EXTINF:-1 group-title="USA ➾ Sports",beIN Sports 3 Backup NO_1   
-http://premiumiptvmk.com:8080/F19236/516c41c7/151025 
-#EXTINF:-1 group-title="Arab Bein",BN032 Bein Sport 5 FHD Backup NO_4   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/59267 
-#EXTINF:-1 group-title="France",beIN Sports Max 10   
-http://premiumiptvmk.com:8080/F19236/516c41c7/6088 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 2 Backup NO_2   
-http://premiumiptvmk.com:8080/F19236/516c41c7/1737 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 7   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56472 
-#EXTINF:-1 group-title="USA Sports",US009 BeIN Sports 1 HD Backup NO_2   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/3159 
-#EXTINF:-1,AR |BEIN| BEIN SPORTS 10 HD   
-http://goldiptvofficiel.tv:25461/Dominique/B8DsYJKBk6jYKEHEIEJVKDBU/144 
-#EXTINF:-1 group-title="Arab Bein",BN008 BeIN Sport 7 HD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2134 
-#EXTINF:-1 group-title="FR Sports",FR042 BEIN SPORTS MAX 6 HD (EVENT) (ONLY) Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2824 
-#EXTINF:-1 group-title="Turkey ➾ Sports",beIN Sports 1 Backup NO_1   
-http://premiumiptvmk.com:8080/F19236/516c41c7/1735 
-#EXTINF:-1 group-title="Arab Bein",BN013 BeIN Sport ENG 2 Backup NO_4   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2129 
-#EXTINF:-1,FR beIN Sports 2   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/145 
-#EXTINF:-1 group-title="Franta",FR BEIN SPORT MAX HD 6   
-http://agramat.ro:8080/TtGAq7gL40YLRy7nPGXv9csqaomOP/wXY22fZ6WCsE0FzB6DBTXaR6obz5JH/56471 
-#EXTINF:-1 group-title="France ➾ Sports",beIN Sports Max 9   
-http://premiumiptvmk.com:8080/F19236/516c41c7/4371 
-#EXTINF:-1,US beIN Sports 3   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/151025 
-#EXTINF:-1 group-title="Arab Bein",BN007 BeIN Sport 6 HD Backup NO_3   
-http://yesimes.oknirvana.club:8880/29us10233n01/4etfr4w23/2135 
-#EXTINF:-1 group-title="France ➾ Football",beIN Sports 2   
-http://premiumiptvmk.com:8080/F19236/516c41c7/145 
-#EXTINF:-1,FR beIN Sports Max 7   
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/4369 
-#EXTINF:-1,US HBO Backup NO_1 m
-http://cord-cutter.net:8080/X5xRz0/944877/9264
+acestream://b6baa046075d82da300fc1b16de96067a8b9540e 
+#EXTINF:-1,Sports ES
+http://aztkplay.pro:8080/Chavita86/LWmvH1yh1K/59938
 #EXTINF:-1,HBO 2 HD 
 http://38.41.8.1:8000/play/a021
-#EXTINF:-1,US HBO East HD Backup 
-http://tv14s.xyz:8080/A1Jay5/362586/46713
-#EXTINF:-1,HU HBO m
-http://myteve.online:8080/GenIptv2023/XkgMCdR7PJzShK5m/14978
-#EXTINF:-1,US HBO Backup NO_3 
-http://tv14s.xyz:8080/A1Jay5/362586/9264
+#EXTINF:-1,Bein movies 
+http://vipgsiv.top:8080/VIP01205172285803692/c12ba3e2d202/2382
